@@ -105,7 +105,6 @@ namespace MoneyHandelerTester
 
             Assert.AreEqual(expectedBalance, actualBalance);
         }
-
         [Test]
 
         public void MinimumCreditTest([Values(25, 45, 38, 99, 48)]int input)
@@ -117,9 +116,9 @@ namespace MoneyHandelerTester
 
         }
 
-       
-        
-       
-            
+
+
+
+
     }
 }
